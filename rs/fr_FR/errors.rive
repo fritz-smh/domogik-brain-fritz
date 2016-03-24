@@ -1,0 +1,14 @@
+> object count_errors_in_logs python
+from domogik_packages.brain_fritz.lib.errors import count_errors_in_logs
+path = args[0] # /var/log/domogik/core*, ...
+when = args[1] # TODAY, YESTERDAY, ...
+return count_errors_in_logs(rs.log, path = path, when = when)
+< object
+
++ shortcut count errors in logs
+- Il y a <call>count_errors_in_logs /var/log/domogik/core* TODAY</call> erreurs dans les logs aujourd'hui. Hier il y en avait <call>count_errors_in_logs /var/log/domogik/core* YESTERDAY</call>.
+
++ ccc
+@ shortcut count errors in logs
+
+

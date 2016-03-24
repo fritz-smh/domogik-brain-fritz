@@ -1,0 +1,42 @@
+.. _index:
+
+===========
+Brain fritz
+===========
+
+Purpose
+=======
+
+This **brain** package is a personnal one and will never be official. There will be no official support on this package. 
+
+It allows to : 
+
+* restart domogik by speaking the butler (this needs a sudo dedicated configuration)
+
+Prerequisites
+=============
+
+The following example assume that the user used by Domogik is **domogik**!
+
+Edit the sudo configuration with **visudo** and add the following lines :
+
+    User_Alias DMG=domogik
+    Cmnd_Alias DMG_CMD=/etc/init.d/domogik,/etc/init.d/domoweb
+    DMG ALL=(ALL) NOPASSWD:DMG_CMD
+
+Dependencies
+============
+
+There is no dependency.
+
+Brain configuration
+===================
+
+There is no configuration option for this package.
+
+How can I see the this brain package allow me to do ?
+=====================================================
+
+In Domogik administration, just go on the corresponding client and look at the **Brain details** page.
+
+

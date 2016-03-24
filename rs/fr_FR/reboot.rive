@@ -1,0 +1,23 @@
+> object domogik_reboot python
+from domogik_packages.brain_fritz.lib.reboot import reboot_domogik
+reboot_domogik()
+< object
+
+> object domoweb_reboot python
+from domogik_packages.brain_fritz.lib.reboot import reboot_domoweb
+reboot_domoweb()
+< object
+
+! array relancer = relancer|rebooter|redémarrer
+
++ shortcut reboot domogik
+- <call>domogik_reboot</call>Le reboot de Domogik va se lancer dans 10 secondes. Le système sera opérationnel dans  1 minute ou plus.
+
++ shortcut reboot domoweb
+- <call>domoweb_reboot</call>Le reboot de Domoweb va se lancer dans 10 secondes. Le système sera opérationned'ici 30 secondes.
+
++ @peuxTu @relancer domogik
+@ shortcut reboot domogik
+
++ @peuxTu @relancer domoweb
+@ shortcut reboot domoweb
