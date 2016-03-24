@@ -8,7 +8,10 @@ return count_errors_in_logs(rs.log, path = path, when = when)
 + shortcut count errors in logs
 - Il y a <call>count_errors_in_logs /var/log/domogik/core* TODAY</call> erreurs dans les logs aujourd'hui. Hier il y en avait <call>count_errors_in_logs /var/log/domogik/core* YESTERDAY</call>.
 
-+ ccc
++ combien y a t il eu d erreurs
+@ shortcut count errors in logs
+
++ il y a eu combien d erreurs
 @ shortcut count errors in logs
 
 
